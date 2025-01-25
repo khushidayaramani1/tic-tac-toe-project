@@ -1,0 +1,44 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    /* background-color:rgb(226, 200, 166); */
+}
+.d-flex{
+    display:flex;
+}
+nav p{
+    font-size:xx-large;
+    font-weight: 300;
+}
+nav{
+    background-color: rgb(85, 27, 139);
+    color:rgb(226, 200, 166);
+    height:20vh;
+    justify-content: center;
+    align-items: center;
+}
+.game,.info{
+    height:80%;
+    width:30%;
+    background-color: blanchedalmond;
+}
+.game-container{
+    justify-content:space-evenly;
+    align-items: center;
+}
+.game button{
+    height:5em;
+    width: 30%; 
+    font-size: 25px;
+}
+.game{
+    justify-content: center;
+    align-items: center; 
+    height:500px;
+    flex-wrap:wrap;
+    flex-shrink:0;
+}
+/* #message{
+    
+} */
