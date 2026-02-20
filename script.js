@@ -6,6 +6,7 @@ let message=document.querySelector('#message');
 let gif=document.querySelector('#gif');
 let body=document.querySelector('#body');
 let start=document.querySelector('#start');
+let reset=document.querySelector('#reset');
 
 let one=document.querySelector('#one');
 let two=document.querySelector('#two');
@@ -19,6 +20,10 @@ let nine=document.querySelector('#nine');
 
 start.addEventListener('click',()=>{
     start.style='display:none';
+})
+
+reset.addEventListener('click',()=>{
+    refresh();
 })
 
 body.addEventListener('click',()=>{
@@ -57,6 +62,7 @@ function refresh(){
     count=0;
     turn='X';
     gif.style='display:none';
+    start.style='display:block';
     alert('new game')
     message.innerHTML=`${turn} has to play`;   
 }

@@ -39,6 +39,14 @@ nav{
     flex-wrap:wrap;
     flex-shrink:0;
 }
-/* #message{
-    
-} */
+.rounded{
+    border-radius: 10px;
+}
+.click-here-to-start{
+    color:rgb(85, 27, 139);
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: rgb(220, 175, 221);
+    padding: 10px;
+}
